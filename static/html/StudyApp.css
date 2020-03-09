@@ -1,0 +1,40 @@
+body {
+	width: 70px;
+  	height: 300px;
+  	border: 1px solid #c3c3c3;
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-content: center;
+}
+.bd-navbar {
+	padding-right: .5rem;
+	padding-left: .5rem;
+	min-height: 4rem;
+}
+.flex-column {
+	flex-direction: column!important;
+}
+.navbar-expand {
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+.navbar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: .5rem 1rem;
+}
+#header {
+	padding-top: 100px;
+	background-color: grey;
+
+}
+#home-button {
+	text-align: center;
+}
+.row {
+	text-align: center;
+}
+.col-sm-1 {
+	display: inline-block;
+}

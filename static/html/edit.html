@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			StudyApp
+		</title>
+		<meta http-equiv="refresh" content="60">
+		<script>
+			setTimeout(function () {
+    				location.reload();
+				}, 3000);
+		</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="StudyApp.css" />
+	</head>
+	<body class="container-fluid">
+		<div class="container-fluid" id="header">
+			<header class="row navbar navbar-fluid navbar-light flex-column flex-md-row bg-dark">
+				<div class = "container-fluid col-sm">
+					<div class ="navbar-header">
+						<a class="navbar-brand" href="#">
+							The StudyApp
+						</a>
+					</div>
+				</div>
+				<div class="col-sm align-center" id="home-button">
+					<button type="button" class = "btn btn-secondary btn-sm" id="centerbutton">
+						Button
+					</button>
+				</div>
+				<div class="col-sm" id="menu">
+					<button type="button" class="btn btn-default" aria-label="Left Align">
+						<span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+					</button>
+				</div>
+			</header>
+		</div>
+		<div class = "container-fluid-lg" >
+			<form class="row">
+				<div class="form-group col-sm">
+					<label for="staticTerm" class="col-sm-2 col-form-label">Current Term</label>
+					<div class="col-sm-10">
+						<input type="text" readonly class="form-control-plaintext" id="staticTerm">
+					</div>
+				</div>
+				<div class="form-group col-sm">
+					<input type="Category" class="form-control" id="inputCategory" placeholder="Category">
+				</div>
+				<div class ="form-group col-sm">
+					<input type="Definition" class="form-control" id="inputDefinition" placeholder="Definition">
+				</div>
+			</form>
+			<form class="row">
+				<div class="form-group col-md">
+					<input type="Question1" class="form-control" id="inputQuestion" placeholder="Question 1">
+				</div>
+				<div class="form-group col-md">
+					<input type="Answer1" class="form-control" id="inputAnswer" placeholder="Answer 1">
+				</div>
+			</form>
+			<form class="row">
+				<div class="form-group col-md">
+					<input type="Question2" class="form-control" id="inputQuestion" placeholder="Question 2">
+				</div>
+				<div class="form-group col-md">
+					<input type="Answer2" class="form-control" id="inputAnswer" placeholder="Answer 2">
+				</div>
+			</form>
+			<form class="row">
+				<div class="form-group col-md">
+					<input type="Question3" class="form-control" id="inputQuestion" placeholder="Question 3">
+				</div>
+				<div class="form-group col-md">
+					<input type="Answer3" class="form-control" id="inputAnswer" placeholder="Answer 3">
+				</div>
+			</form>
+			<div class="row" id="buttons">
+				<div class = "col-sm">
+					<button type="button" class = "btn btn-secondary btn-sm" href="#">
+						Add New Question
+					</button>
+				</div>
+				<div class = "col-sm" id="study">
+					<button type="button" class="btn btn-secondary btn-sm" href="#">
+						Add New Term
+					</button>
+				</div>
+				<div class = "col-sm">
+					<button type="button" class="btn btn-secondary btn-sm" href="#">
+						Study
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
