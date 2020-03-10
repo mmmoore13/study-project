@@ -17,52 +17,51 @@
 		<link rel="stylesheet" href="StudyApp.css" />
 	</head>
 	<body class="container-fluid">
-		<header class="navbar navbar-fluid navbar-light flex-column flex-md-row bg-dark">
-			<div class = "container-fluid">
-				<div class ="navbar-header">
-					<a class="navbar-brand" href="#">
-						The StudyApp
-					</a>
+		<div class = "container-fluid" id="header">
+			<header class="row navbar navbar-fluid navbar-dark flex-column flex-row fixed-top bg-primary">
+				<div class = "container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="home.">
+							The StudyApp
+						</a>
+					</div>
+					<div class="navbar-header-right">
+						<a class="navbar-brand">
+							glyphcon menu here
+						</a>
+					</div>
 				</div>
-			</div>
-			<div class="" id="home-button">
-				<button type="button" class = "btn btn-secondary btn-sm" id="centerbutton">
-					Button
-				</button>
-			</div>
-			<div id="menu">
-				<button type="button" class="btn btn-default" aria-label="Left Align">
-					<span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>here
-				</button>
-			</div>
-		</header>
-		<div class = "container" >
-			<div class="row">
-				<div class = "col-sm">
-				</div>
+			</header>
+		</div>
+		<div class = "container" id="main">
+			<div class="row" id="pagetitle">
 				<div class = "col-sm">
 					<h1 class="text-center">
 						Welcome to the StudyApp
 					</h1>
 				</div>
-				<div class = "col-sm">
-				</div>
 			</div>
-			<div class="row" id="buttons">
-				<div class = "col-sm">
-					<button type="button" class = "btn btn-secondary btn-sm" href="#">
-						New Term
-					</button>
+			<div class="row container-fluid" id="buttoncontainer">
+				<div class = "col-sm" id="button">
+					<a href="newterm.html">
+						<button type="button" class = "btn btn-primary btn-sm">
+							New Term
+						</button>
+					</a>
 				</div>
-				<div class = "col-sm" id="study">
-					<button type="button" class="btn btn-secondary btn-sm" href="#">
-						Study
-					</button>
+				<div class = "col-sm" id="button">
+					<a href="study.html">
+						<button type="button" class = "btn btn-primary btn-sm">
+							Study
+						</button>
+					</a>
 				</div>
-				<div class = "col-sm">
-					<button type="button" class="btn btn-secondary btn-sm" href="#">
-						Edit Term
-					</button>
+				<div class = "col-sm" id="button">
+					<a href="edit.html">
+						<button type="button" class = "btn btn-primary btn-sm" >
+							Edit Term
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>

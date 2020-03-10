@@ -1,16 +1,51 @@
 body {
-	width: 70px;
-  	height: 300px;
-  	border: 1px solid #c3c3c3;
-  	display: flex;
-  	flex-wrap: wrap;
-  	align-content: center;
+	width: auto;
+  height: auto;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+	margin: 0 auto;
 }
-.bd-navbar {
-	padding-right: .5rem;
-	padding-left: .5rem;
-	min-height: 4rem;
+#header{
+	padding-top: 5px;
+	margin: auto;
 }
+#pagetitle {
+	padding-top: 5rem;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+#Questionbracket {
+	padding-top: 5rem;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+#termcontainer {
+	padding-top: 1rem;
+	margin: auto;
+	text-align: center;
+}
+#definitioncontainer {
+	margin: 0 auto;
+	text-align: center;
+}
+#wrongAnswer {
+	color: red;
+}
+#buttoncontainer {
+	column-rule-width: medium;
+	margin: auto auto;
+	text-align: center;
+}
+#button {
+	padding: 15px;
+}
+#buttons{
+	border: 1px solid;
+}
+
+	 /*
 .flex-column {
 	flex-direction: column!important;
 }
@@ -27,7 +62,6 @@ body {
 #header {
 	padding-top: 100px;
 	background-color: grey;
-
 }
 #home-button {
 	text-align: center;
