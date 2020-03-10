@@ -27,8 +27,11 @@ body {
 	text-align: center;
 }
 #definitioncontainer {
-	margin: 0 auto;
+	margin: auto;
 	text-align: center;
+}
+#QAcontainer {
+	margin: auto;
 }
 #wrongAnswer {
 	color: red;
