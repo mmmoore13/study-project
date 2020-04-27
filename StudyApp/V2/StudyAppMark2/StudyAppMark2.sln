@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyAppMark2", "StudyAppMark2\StudyAppMark2.csproj", "{DAB3E2EA-8787-405D-A3BF-9C4A2E4EBEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB3E2EA-8787-405D-A3BF-9C4A2E4EBEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB3E2EA-8787-405D-A3BF-9C4A2E4EBEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB3E2EA-8787-405D-A3BF-9C4A2E4EBEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB3E2EA-8787-405D-A3BF-9C4A2E4EBEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
