@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-//using StudyAppMark2.Models;
+using StudyAppMark2.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,6 +18,11 @@ namespace StudyAppMark2.Controllers
             int hour = DateTime.Now.Hour;
             ViewBag.Creeting = hour < 12 ? "GoodMorning" : "Good Afternoon";
             return View("Index");
+        }
+
+        public IActionResult NewUserForm()
+        {
+            return View();
         }
 
         public IActionResult About()
